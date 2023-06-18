@@ -1,12 +1,19 @@
 import { Button, Card, Form, Input } from "antd";
 import { MdEmail, MdLock } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 function Login() {
+  const navigate = useNavigate();
+
+  const onFinish = (values: any) => {
+    localStorage.setItem("userName",values.userName)
+    navigate("/");
+  };
   return (
     <div className="login">
       <Card bordered={false}>
         <h1>Login</h1>
-        <Form>
-          <Form.Item>
+        <Form  onFinish={onFinish}>
+          <Form.Item name="userName">
             <Input
               placeholder="Email"
               suffix={<MdEmail style={{ fontSize: 28, color: "#334253" }} />}

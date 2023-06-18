@@ -1,9 +1,9 @@
 import { Button } from "antd";
 
-function DetailsCard() {
+function DetailsCard(props:{pic:string}) {
   return (
 <div className="detailsCard">
-<img  src="anime-1.png" />
+<img  src={props.pic} />
 <Button>
     Play
 </Button>

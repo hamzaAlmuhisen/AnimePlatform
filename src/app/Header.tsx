@@ -21,9 +21,8 @@ const items: MenuProps["items"] = [
     key: "characters",
   },
   {
-    label: "",
+    label:<UserOutlined style={{fontSize:24}} />,
     key: "logi1n",
-    icon: <UserOutlined style={{fontSize:24}} />,
     children: [
       {
         label: "Profile",
@@ -48,7 +47,7 @@ function AppHeader(props: { Auth: boolean }) {
     <>
       <Header style={{position:"absolute",width:"100%"}} className={props.Auth ? "al-s" : ""}>
         <div onClick={()=>{navigate('/')}} className='logo'>
-          <img src="logo.png" alt="logo" />
+          <img src="/logo.png" alt="logo" />
         </div>
         {props.Auth ? (
           <></>
