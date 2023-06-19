@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/AnimePlatform/static/css/main.7e4a4a9c.css",
-    "main.js": "/AnimePlatform/static/js/main.737f32e9.js",
+    "main.js": "/AnimePlatform/static/js/main.4b0b0249.js",
     "static/js/787.4a373fc8.chunk.js": "/AnimePlatform/static/js/787.4a373fc8.chunk.js",
     "static/media/loginbg.jpg": "/AnimePlatform/static/media/loginbg.eff3ebd3059ee565a581.jpg",
     "index.html": "/AnimePlatform/index.html",
     "main.7e4a4a9c.css.map": "/AnimePlatform/static/css/main.7e4a4a9c.css.map",
-    "main.737f32e9.js.map": "/AnimePlatform/static/js/main.737f32e9.js.map",
+    "main.4b0b0249.js.map": "/AnimePlatform/static/js/main.4b0b0249.js.map",
     "787.4a373fc8.chunk.js.map": "/AnimePlatform/static/js/787.4a373fc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e4a4a9c.css",
-    "static/js/main.737f32e9.js"
+    "static/js/main.4b0b0249.js"
   ]
 }
