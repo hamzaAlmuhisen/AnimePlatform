@@ -1,6 +1,8 @@
 import { Col, Row } from "antd";
 import AnimeCard from "../allAnime/card";
 import { useEffect, useState } from "react";
+import data from "../../app/data.json";
+
 function Profile() {
   const [name, setName] = useState<any>();
 
@@ -29,14 +31,24 @@ function Profile() {
       <Row style={{ margin: 36 }}>
         <Col xl={22}>
           <h1> My favorte anime</h1>
-          <Row></Row>
+          <Row>
+            {data.map((elm) => (
+              elm.fav ?
+                <AnimeCard key={elm.Id} fav={elm.fav} pic={elm.image} details={elm.desc} name={elm.Name} id={elm.Id} /> : <></>
+            ))}
+          </Row>
         </Col>
       </Row>
 
       <Row style={{ margin: 36 }}>
         <Col xl={22}>
           <h1> My favorte movie</h1>
-          <Row></Row>
+          <Row>
+            {data.map((elm) => (
+              elm.fav ?
+                <AnimeCard key={elm.Id} fav={elm.fav} pic={elm.image} details={elm.desc} name={elm.Name} id={elm.Id} /> : <></>
+            ))}
+          </Row>
         </Col>
       </Row>
     </div>

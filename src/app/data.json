@@ -5,8 +5,8 @@
         "desc":"In a village where he was rejected for unknown reasons, Naruto Uzumaki, a young ninja who seeks to become the Hokage, the leader of his village",
         "category":"Action Drama Shonen",
         "type":"anime",
-        "image":"/anime-1.png",
-        "backImage":"/anime-1b.png",
+        "image":"anime-1.png",
+        "backImage":"anime-1b.png",
         "link":"https://www.youtube.com/watch?v=QczGoCmX-pI&pp=ygUObmFydXRvIHRyYWlsZXI%3D",
         "fav":true
     },
@@ -16,8 +16,8 @@
         "desc":"Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named One Piece",
         "category":"Action Drama Shonen",
         "type":"anime",
-        "image":"/anime-2.png",
-        "backImage":"/anime-2b.png",
+        "image":"anime-2.png",
+        "backImage":"anime-2b.png",
         "link":"https://www.youtube.com/watch?v=LHTYpWI3S6Q&pp=ygURb25lIHBpZWNlIHRyYWlsZXI%3D",
         "fav":false
     },
@@ -27,8 +27,8 @@
         "desc":"After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
         "category":"Action Drama Shonen",
         "type":"anime",
-        "image":"/anime-3.png",
-        "backImage":"/anime-3b.png",
+        "image":"anime-3.png",
+        "backImage":"anime-3b.png",
         "link":"https://www.youtube.com/watch?v=LV-nazLVmgo&pp=ygUXYXR0YWNrIG9uIHRpdGFuIHRyYWlsZXI%3D",
         "fav":false
     },
@@ -38,8 +38,8 @@
         "desc":"A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
         "category":"Action Drama Shonen",
         "type":"anime",
-        "image":"/anime-4.png",
-        "backImage":"/anime-4b.png",
+        "image":"anime-4.png",
+        "backImage":"anime-4b.png",
         "link":"https://www.youtube.com/watch?v=LV-nazLVmgo&pp=ygUXYXR0YWNrIG9uIHRpdGFuIHRyYWlsZXI%3D",
         "fav":true
     },
@@ -49,8 +49,8 @@
         "desc":"The peace is suddenly broken when warning sirens blare through the Soul Society. Residents are disappearing without a trace and nobody knows who's behind it. Meanwhile, a darkness is approaching Ichigo and his friends in Karakura Town.",
         "category":"Action Drama Shonen",
         "type":"anime",
-        "image":"/anime-5.png",
-        "backImage":"/anime-5b.png",
+        "image":"anime-5.png",
+        "backImage":"anime-5b.png",
         "link":"https://www.youtube.com/watch?v=LV-nazLVmgo&pp=ygUXYXR0YWNrIG9uIHRpdGFuIHRyYWlsZXI%3D",
         "fav":true
     },
@@ -60,8 +60,8 @@
         "desc":"Thorfinn pursues a journey with his father's killer in order to take revenge and end his life in a duel as an honorable warrior and pay his father a homage.",
         "category":"Action Drama Shonen",
         "type":"anime",
-        "image":"/anime-6.png",
-        "backImage":"/anime-6b.png",
+        "image":"anime-6.png",
+        "backImage":"anime-6b.png",
         "link":"https://www.youtube.com/watch?v=LV-nazLVmgo&pp=ygUXYXR0YWNrIG9uIHRpdGFuIHRyYWlsZXI%3D",
         "fav":true
     }

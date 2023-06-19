@@ -1,5 +1,5 @@
 import { Menu, MenuProps } from "antd";
-import Layout, { Header } from "antd/es/layout/layout";
+import  { Header } from "antd/es/layout/layout";
 import { UserOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 
@@ -47,7 +47,7 @@ function AppHeader(props: { Auth: boolean }) {
     <>
       <Header style={{position:"absolute",width:"100%"}} className={props.Auth ? "al-s" : ""}>
         <div onClick={()=>{navigate('/')}} className='logo'>
-          <img src="/logo.png" alt="logo" />
+          <img src="logo.png" alt="logo" />
         </div>
         {props.Auth ? (
           <></>
