@@ -25,7 +25,7 @@ function Home() {
       <h1 >Explore the Top Watching Anime</h1>
       <Row style={{ gap: 60 }} align="middle" justify="center">
         {data.map((elm, index) => (
-          index < 4 ?
+          index < 3 ?
             <AnimeCard key={elm.Id} fav={elm.fav} pic={elm.image} details={elm.desc} name={elm.Name} id={elm.Id} /> : <></>
         ))}
       </Row>
